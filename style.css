@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+
+#board {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    border: solid 2px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
