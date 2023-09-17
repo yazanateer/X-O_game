@@ -15,10 +15,11 @@ let current_player = "X";
 })();
 
 function print_player(squ){
+    if(!squ.target.textContent){
     const view_player = document.createElement('div')
     view_player.classList.add(current_player)
     view_player.textContent = current_player
     squ.target.append(view_player)
-    current_player = (current_player=== "X"?"O":"X")
+    current_player = (current_player=== "X"?"O":"X")}
 
 }
